@@ -22,3 +22,6 @@ This project uses dynamic programming to optimize a stock portfolio based on cap
 
 ```bash
 python optimizer.py --capital 75000 --risk 36 --csv assets.csv
+
+## Run Test
+python -m unittest test_optimizer.py
